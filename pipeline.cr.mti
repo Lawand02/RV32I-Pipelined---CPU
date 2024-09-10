@@ -1,0 +1,203 @@
+{D:/VHDL/RV32I Pipelined - Final Project/code/reg1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/reg1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity FetchToDecode_reg
+-- Compiling architecture reg1_behav of FetchToDecode_reg
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/ALU_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/ALU_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU_32bit_tb
+-- Compiling architecture tb of ALU_32bit_tb
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/reg2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/reg2.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity DcodeToExecute_reg
+-- Compiling architecture reg2_behav of DcodeToExecute_reg
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/PC_tb.vhd} {0 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/PC_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pc_tb
+-- Compiling architecture tb of pc_tb
+** Error: D:/VHDL/RV32I Pipelined - Final Project/code/PC_tb.vhd(19): (vcom-1294) Declaration with designator "PC" already exists in this region.
+** =====> Prior declaration of "pc" is at D:/VHDL/RV32I Pipelined - Final Project/code/PC_tb.vhd(8).
+** Error (suppressible): D:/VHDL/RV32I Pipelined - Final Project/code/PC_tb.vhd(22): (vcom-1141) Identifier "PC" does not identify a component declaration.
+** Error: D:/VHDL/RV32I Pipelined - Final Project/code/PC_tb.vhd(47): VHDL Compiler exiting
+
+} {9.0 10.0 12.0 13.0} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/data_mem.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/data_mem.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem_data
+-- Compiling architecture RTL of mem_data
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/reg3.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/reg3.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ExecuteToMemory_reg
+-- Compiling architecture reg3_behav of ExecuteToMemory_reg
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/reg4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/reg4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity MemoryToWriteback_reg
+-- Compiling architecture reg4_behav of MemoryToWriteback_reg
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/reg_file_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/reg_file_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity register_file_tb
+-- Compiling architecture behavior of register_file_tb
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/ALU.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/ALU.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU_32bit
+-- Compiling architecture RTL of ALU_32bit
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/main_decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/main_decoder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity main_dec
+-- Compiling architecture Behavioral of main_dec
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/sign_extend_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/sign_extend_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sign_extend_unit_tb
+-- Compiling architecture tb of sign_extend_unit_tb
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/ALU_decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/ALU_decoder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_decoder
+-- Compiling architecture behavior of alu_decoder
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/sign_extend.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/sign_extend.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sign_extend_unit
+-- Compiling architecture Behavioral of sign_extend_unit
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/controller_tb.vhd} {1 {vcom -work work -93 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/controller_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity control_unit_tb
+-- Compiling architecture tb_control of control_unit_tb
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/hazard_unit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/hazard_unit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity hazard_detection
+-- Compiling architecture Behaviore of hazard_detection
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/PC.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/PC.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity pc
+-- Compiling architecture rtl of pc
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/top.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/top.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity top
+-- Compiling architecture RTL of top
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/instr_mem_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/instr_mem_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem_instruct_tb
+-- Compiling architecture behavior of mem_instruct_tb
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/controller.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/controller.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity control_unit
+-- Compiling architecture Behav of control_unit
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/reg_file.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/reg_file.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity register_file
+-- Compiling architecture Behavioral of register_file
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/data_mem_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/data_mem_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem_data_tb
+-- Compiling architecture tb of mem_data_tb
+
+} {} {}} {D:/VHDL/RV32I Pipelined - Final Project/code/instr_mem.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/VHDL/RV32I Pipelined - Final Project/code/instr_mem.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem_instruct
+-- Compiling architecture behavior of mem_instruct
+
+} {} {}}
